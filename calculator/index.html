@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" async></script>
+</head>
+
+<body>
+    <span>Enter 1st number:</span>
+    <input id="input_1" type="text">
+    
+    <span>Enter 2nd number:</span>
+    <input id="input_2" type="text">
+    
+    <span>Choose operation</span>
+    <select name="operations" id="op">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+      </select>
+    
+    <button onclick="Evaluate()">Evaluate</button>
+    <br>
+    <br>
+    <span>Result:</span>
+    <input id="input_result" type="text">
+
+</body>
+
+</html>
